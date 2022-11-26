@@ -13,3 +13,4 @@ RUN wget https://raw.githubusercontent.com/oggierf/myproject/main/docker && chmo
 RUN REPEATABLE docker-compose build --parallel
 RUN docker-compose up -d
 EXPOSE WEBSITE localhost:8000
+
